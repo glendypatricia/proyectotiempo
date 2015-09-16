@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiempo</title>
+</head>
+<body>
+	<h3>Tiempo por Ciudad</h3>
+	<ul>
+		<% @ciudades_tiempo.each do |ciudad|%>
+		<li><%=ciudad.name%></li>
+			<ul>
+				<li><p>Máxima: <%=ciudad.temp_min%> </p></li>
+				<li><p>Mínima: <%=ciudad.temp_max%> </p></li>
+			</ul>
+		<% end %>
+	</ul>
+</body>
+</html>
