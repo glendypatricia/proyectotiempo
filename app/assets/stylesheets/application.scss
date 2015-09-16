@@ -10,6 +10,27 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+
+
+@import "bootstrap";
+@import "bootstrap-sprockets";
+
+/*.col-cuatro-edit .col-md-4 {
+	border: 1px solid black;
+}*/
+
+.div-top {
+	padding: 15px 30px 15px 30px; 
+	color:#FFFFFF; 
+	background:#4A4A4A;
+	font: bold arial;
+	text-align: center;
+}
+
+.div-center {
+	padding: 15px 60px 15px 60px; 
+	color:#FFFFFF; 
+	font: bold arial;
+	text-align: center;
+}
